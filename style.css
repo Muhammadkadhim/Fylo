@@ -87,3 +87,47 @@ h6 {
     );
     border-radius: 100vw;
 }
+
+/* -----shared styles----- */
+
+/* cta and submit button */
+.btn {
+    background-image: linear-gradient(
+        to right,
+        var(--clr-accent-cyan),
+        var(--clr-accent-blue)
+    );
+    color: var(--clr-neutral-100);
+    border: none;
+    border-radius: 100vw;
+    min-width: 18em;
+    height: 3.5em;
+    font-weight: var(--fw-700);
+    cursor: pointer;
+}
+
+.btn:hover,
+.btn:focus {
+    background-image: none;
+    background-color: var(--clr-accent-cyan);
+    filter: brightness(105%);
+}
+
+/* styling ancher tag while hovering */
+a[class="hover"]:hover,
+a[class="hover"]:focus {
+    border-bottom: 1px solid var(--clr-neutral-100);
+    color: var(--clr-neutral-100);
+}
+
+/* centering text */
+.text-center {
+    text-align: center;
+}
+
+/* container */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin-inline: auto;
+}
