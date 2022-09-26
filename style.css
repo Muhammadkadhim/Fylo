@@ -437,6 +437,64 @@ footer .footer-content .social-icons .instagram {
     font-size: 0.8rem;
 }
 
+/* signup form */
+.signup-form {
+    background-color: var(--clr-primary-300);
+}
+
+.signup-form .container {
+    background-color: var(--clr-primary-200);
+    padding: 2em 1em 1.5em 1em;
+    width: 85%;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    border-radius: 10px;
+    translate: 0 145px;
+}
+
+.signup-form form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
+}
+
+.signup-form form div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5em;
+    position: relative;
+}
+
+.signup-form form div span {
+    font-size: 0.7rem;
+    color: var(--clr-accent-light-red);
+    display: none;
+    position: absolute;
+    bottom: -20px;
+    left: 28px;
+}
+
+.signup-form form div span.error {
+    display: inline;
+}
+
+.signup-form form input {
+    border-radius: 100vw;
+    min-width: 16em;
+    height: 3.5em;
+    border: none;
+    outline: none;
+    padding-left: 2em;
+}
+
+.signup-form form input::placeholder {
+    color: var(--clr-neutral-200);
+}
+
 /* -----media queries----- */
 
 /* navbar media queries */
@@ -591,5 +649,33 @@ footer .footer-content .social-icons .instagram {
     footer .footer-content .social-icons .icon {
         width: 1.5rem;
         height: 1.5rem;
+    }
+}
+
+/* signup form media queries */
+@media screen and (min-width: 720px) {
+    .signup-form form {
+        flex-direction: row;
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .signup-form .container {
+        padding-block: 3em;
+        translate: 0 135px;
+    }
+
+    .signup-form p {
+        width: 80%;
+        margin-inline: auto;
+    }
+
+    .signup-form h3 {
+        font-size: 2rem;
+    }
+
+    .signup-form form input {
+        width: 30em;
     }
 }
