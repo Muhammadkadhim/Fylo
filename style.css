@@ -69,3 +69,21 @@ h6 {
     font-weight: var(--fw-700);
     color: var(--clr-neutral-100);
 }
+
+/* scroll bar styles */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--clr-primary-100);
+}
+
+::-webkit-scrollbar-thumb {
+    background-image: linear-gradient(
+        to bottom,
+        var(--clr-accent-cyan),
+        var(--clr-accent-blue)
+    );
+    border-radius: 100vw;
+}
