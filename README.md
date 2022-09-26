@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Links
 
--   Solution URL: [Solution url]https://www.frontendmentor.io/solutions/fylodarkthemelandingpagemaster-Y7jtsFTuQ6)
+-   Solution URL: [Solution url](https://www.frontendmentor.io/solutions/fylodarkthemelandingpagemaster-Y7jtsFTuQ6)
 -   Live Site URL: [Live Demo](https://fylo-app.vercel.app/)
 
 ## My process
